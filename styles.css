@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap');
+
+.title {
+    color: #333333;
+    max-width: 133px;
+    width: 133px;
+    height: 25px;
+    font-family: inconsolata, monospace;
+    font-weight: 700;
+    line-height: 25.18px;
+    /*font-size: 24px;*/
+}
+
+img {
+    width: 539.22px;
+    height: 447.43px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /*division de columnas */
+}
+
+.right {
+    height: 50%;
+    display: flex;
+    place-items: center;
+    /*text-align: center;*/
+}
+
+.right h1 {
+    font-family: Space Mono, monospace;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94.78px;
+}
+
+.containerH {
+    width: 600px;
+    height: 190px;
+    margin: 18px;
+}
+
+.right p {
+    font-family: Space Mono, monospace;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35.54px;
+}
+
+.containerP {
+    width: 400px;
+    height: 108px;
+    margin: 32px;
+}
+
+.right button {
+    width: 216px;
+    height: 68px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-family: Space Mono, monospace;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20.73px;
+    margin: 32px;
+}
+
+.left {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+}
+
+.footer {
+    color: rgba(0, 0, 0, .5);
+    width: 100%;
+    text-align: center;
+}
+
+@media(max-width:1000px) {
+    .container {
+        flex-direction: column;
+        /*division de columnas */
+    }
+    .right {
+        height: 100%;
+        place-items: center;
+    }
+    .left {
+        width: 100%;
+
+    }
+}
