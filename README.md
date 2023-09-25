@@ -73,6 +73,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://interfas-404.web.app/)
-- GitHub [@your-username](https://github.com/FreddyDGL/404-Not-found.git)
-- Twitter [@your-twitter](https://x.com/ElTortugo3?t=wuClxboGsgDlbXMRSrDcmg&s=09)
+- Website [404-not-found](https://interfas-404.web.app/)
+- GitHub [@FreddyDGL](https://github.com/FreddyDGL/404-Not-found.git)
+- Twitter [@FreddyDGL](https://x.com/ElTortugo3?t=wuClxboGsgDlbXMRSrDcmg&s=09)
